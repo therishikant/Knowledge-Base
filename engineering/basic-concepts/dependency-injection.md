@@ -9,6 +9,12 @@ Inject dependencies instead of creating them
 
 ## Example
 Service → uses Repository (injected)
+```java
+    @Service
+    class OrderService {
+        OrderService(PaymentService paymentService) { }
+    }
+```
 
 ## Used In
 - Spring
