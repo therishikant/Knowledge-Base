@@ -72,3 +72,13 @@ nums = list(set(nums1) - set(nums2)) # Get distinct nums (all num not present in
 ```python
     tasks = sorted([(first, second, i) for i, (first, second) in enumerate(tasks)])
 ```
+
+**9. Find Index of max element**
+```python
+maxRoomId = 0
+for i, count in enumerate(rooms):
+    if count > rooms[maxRoomId]:
+        maxRoomId = i
+
+rooms.index(max(rooms))
+```
