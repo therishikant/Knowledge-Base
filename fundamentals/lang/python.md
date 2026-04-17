@@ -82,3 +82,13 @@ for i, count in enumerate(rooms):
 
 rooms.index(max(rooms))
 ```
+
+**10. Shorthand for If else condition**
+```python
+if num > 0:
+    return num
+else:
+    return num2
+
+return num if num > 0 else num2
+```
