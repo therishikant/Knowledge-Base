@@ -92,3 +92,10 @@ else:
 
 return num if num > 0 else num2
 ```
+
+**11. Queue**
+```python
+q = deque()
+q.append(i)
+q.popleft()
+```

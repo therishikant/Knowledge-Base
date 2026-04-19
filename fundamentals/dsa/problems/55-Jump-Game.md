@@ -1,9 +1,9 @@
 # 55. Jump Game
 
 **Intution**
-- start from end
-- move end to i if able to reach end position
-- at last if end == 0 return True
+- start from index-n
+- move index-n to index-i if able to reach end position
+- at last if index-n == index-0 return True
 
 ```python
 class Solution:
