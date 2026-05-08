@@ -9,7 +9,7 @@
 ## 1.Next Step
 - Start become interview ready for Service or Low Product
 
-### Req. for Service and Low Product based Companies (Deadline 10 May 26)
+### Req. for Service and Low Product based Companies
 - OOP
 - Java core 
 - Java 8
